@@ -19,7 +19,7 @@ console.log(nombre_en_lettre("85454.98", "Dinnar", "Centimes"));
 
 ## PHP
 ```php
-include_once("NumberToLetter.php");
+include_once("nombre_en_lettre.php");
 
 echo NumberToLetter("12 236.24") ."\r\n";
 // douze mille deux cent trente-six virgule vingt-quatre
