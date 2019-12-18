@@ -1,24 +1,23 @@
 module.exports = (function () {
 
 // JavaScript Document
-    /****************************************************************************
-     *________________________________________________________________________    *
-     *    About        :    Convertit jusqu'�  999 999 999 999 999 (billion)        *
-     *                    avec respect des accords                                *
-     *_________________________________________________________________________    *
-     *    Auteur    :    GALA OUSSE Brice, Engineer programmer of management        *
-     *    Mail        :    bricegala@yahoo.fr, bricegala@gmail.com                    *
-     *    T�l            :    +237 99 37 95 83 / +237 79 99 82 80                        *
-     *    Copyright    :    avril  2007
-
-     * Ce document intitul� � Conversion des nombres en lettre � issu de CommentCaMarche
-     * (codes-sources.commentcamarche.net) est mis � disposition sous les termes de
-     * la licence Creative Commons. Vous pouvez copier, modifier des copies de cette
-     * source, dans les conditions fix�es par la licence, tant que cette note
-     * appara�t clairement.                                    *
-     *_________________________________________________________________________    *
-     *****************************************************************************
-     */
+/****************************************************************************
+*________________________________________________________________________   *
+*   About       :   Convertit jusqu'à  999 999 999 999 999 (billion)        *
+*                   avec respect des accords                                *
+*_________________________________________________________________________  *			
+*   Auteur      :   GALA OUSSE Brice, Engineer programmer of management     *
+*   Mail        :   bricegala@yahoo.fr, bricegala@gmail.com                 *
+*   Tél         :   +237 99 37 95 83 / +237 79 99 82 80                     *
+*   Copyright   :   avril  2007                                             *
+* Ce document intitulé « Conversion des nombres en lettre » issu de CommentCaMarche
+* (codes-sources.commentcamarche.net) est mis à disposition sous les termes de
+* la licence Creative Commons. Vous pouvez copier, modifier des copies de cette
+* source, dans les conditions fixées par la licence, tant que cette note    *
+* apparaît clairement.                                                      *
+*_________________________________________________________________________  *
+*****************************************************************************
+*/
 
     function NumberToLetter(nombre) {
     	
@@ -141,5 +140,4 @@ module.exports = (function () {
     }//-----------------------------------------------------------------------
 
     return NumberToLetter;
-
 })();
