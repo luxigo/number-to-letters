@@ -1,6 +1,6 @@
-# NomberEnLettre
+# NombreEnLettres
 
-### JS and PHP Lib, Convertisseur de nombres et chiffre en lettres
+### JS PHP Lib, Convertisseur de nombres et chiffre en lettres
 Pour convertir et écrire les nombres en français en toutes lettres à partir de nombres écrits en chiffres en base 10.
 
 Ce convertisseur de chiffres en lettres est pratique pour écrire les nombres en lettre et les chiffres en Français ou pour vérifier l'orthographe d'un nombre.
