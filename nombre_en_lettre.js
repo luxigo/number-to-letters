@@ -19,7 +19,7 @@ module.exports = (function () {
 *****************************************************************************
 */
 
-    function NumberToLetter(nombre) {
+    function NumberToLetter(nombre, U=null, D=null) {
     	
     	var letter = {
 			0: "zéro",
@@ -64,9 +64,10 @@ module.exports = (function () {
         //if (Math.ceil(nb) != nb) return "Nombre avec virgule non géré.";
 		if(Math.ceil(nb) != nb){
 			nb = nombre.toString().split('.');
-			return NumberToLetter(nb[0]) + " virgule " + NumberToLetter(nb[1]);
-		}
-
+			//return NumberToLetter(nb[0]) + " virgule " + NumberToLetter(nb[1]);
+			return NumberToLetter(nb[0]) + (U ? " " + U + " et " : " virgule ") + NumberToLetter(nb[1]) + (D ? " " + D : "");
+        }
+        
         n = nb.toString().length;
         switch (n) {
             case 1:
